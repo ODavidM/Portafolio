@@ -51,6 +51,8 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    box-shadow: 0 0 40px -20px var(--color-tercieario);
+
 }
 
 .presentacion__contenido{
@@ -59,7 +61,7 @@ body {
     flex-direction: column;
     gap: 3rem;
     font-size: 2rem;
-    padding: 1% 1% 1% 1%;   
+    padding: 1% 1% 5% 1%;   
 }
 
 .presentacion__contenido__titulo{
@@ -112,8 +114,9 @@ body {
 }
 
 .mi-foto{
-    width: 50%;
+    width: 25rem;
     border-radius: 16px;
+    box-shadow: 0px 0px 40px -20px var(--color-tercieario);
 }
 
 .Buton-enlaces{
@@ -143,9 +146,10 @@ body {
     font-size: 0.7rem;
 }
 
-@media (max-width: 1000px) { 
+@media (max-width: 800px) { 
     .presentacion{
         flex-direction: column-reverse;
+        padding: 5%;
     }
 
     .heder-menu{
