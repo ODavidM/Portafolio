@@ -181,6 +181,88 @@ body {
     font-weight: 300;
     font-size: 0.7rem;
 }
+/*---------------------------------------------------------------*/
+
+.cards_container--proyectos {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.proyectos h1{
+    font-size: 1.5rem;
+    font-family: var(--fuente-montserrat);
+    color: var(--color-tercieario);
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.proyectos{
+    box-shadow: 0px 0px 40px -20px var(--color-tercieario);
+}
+
+.proyectos--contenedor {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.proyectos--contenedor2 {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+    
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: var(--color-);
+    border-radius: 10px;
+    
+    
+}
+
+.container_textCard--proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100px;
+    width: 400px;
+}
+
+
+
+.container_imgCard--proyectos img{
+    height: 303px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px;
+}    
+
+.container_btn--proyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+
+
+
+
 
 @media (max-width: 800px) { 
     .presentacion{
@@ -209,3 +291,4 @@ body {
         text-align: center;
     }
 }
+
