@@ -208,6 +208,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 3.4%;
 
 }
 
@@ -216,9 +217,8 @@ body {
     gap: 26px;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center
-    
-
+    align-items: center;
+    padding-bottom: 10.4%;
 }
 
 .cards{
@@ -240,6 +240,9 @@ body {
     gap: 10px;
     height: 100px;
     width: 400px;
+    font-family: var(--fuente-montserrat);
+    word-break: break-word; 
+    text-overflow: ellipsis;
 }
 
 
@@ -253,13 +256,21 @@ body {
 
 .container_btn--proyectos{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
+    gap: 50px;
 }
 
 
-
+.btn_demo, .btn_repo{
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    color: var(--color-tercieario);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+X}
 
 
 
